@@ -1,0 +1,3418 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  color: #f2ede9;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 140vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-bg {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.navbar {
+  height: 10%;
+  width: 100%;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 5%;
+  text-decoration: none;
+  color: #f68773;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: black;
+  font-size: 4rem;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 12%;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link:hover {
+  font-size: 1.1rem;
+  color: #f68773;
+}
+
+.d-flex {
+  position: relative;
+  right: 15%;
+  cursor: pointer;
+}
+
+.d-flex .form-control {
+  border: none;
+  font-size: 0.9rem;
+}
+
+.d-flex .btn {
+  position: absolute;
+  font-size: 1rem;
+  color: #999;
+  top: -4px;
+  left: 100%;
+}
+
+.small-icons {
+  position: relative;
+  right: 5%;
+}
+
+.small-icons i {
+  font-size: 1rem;
+}
+
+ul li {
+  margin: 0 0.5rem;
+}
+
+.contain {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contain .containLeft {
+  padding: 3rem;
+}
+
+.contain .containLeft ul li {
+  list-style-type: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin-left: 3rem;
+}
+
+.contain .containLeft ul li a {
+  color: #999;
+}
+
+.contain .containLeft ul li a:hover {
+  color: #f68773;
+  font-size: 2rem;
+}
+
+.contain .containMiddle {
+  padding: 0rem;
+}
+
+.contain .containMiddle .firstTitle {
+  font-size: 10rem;
+  color: white;
+}
+
+.contain .containMiddle a {
+  color: white;
+  margin-left: 8rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.contain .containMiddle a:hover {
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+
+.contain .containRight {
+  padding: 0rem;
+  margin-right: 2rem;
+}
+
+.contain .containRight .firstWord {
+  font-size: 1rem;
+  opacity: 0.5;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.contain .containRight .firstWord:hover {
+  font-size: 2.5rem;
+  opacity: 1;
+  color: #f68773;
+}
+
+.contain .containRight .lastWord {
+  font-size: 2rem;
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.contain .containRight .lastWord:hover {
+  font-size: 1.3rem;
+  opacity: 1;
+  color: #f68773;
+}
+
+.contain .containRight .up:hover {
+  font-size: 3.3rem;
+}
+
+hr {
+  width: 75%;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 4rem;
+}
+
+.contSecThree .wor .col {
+  width: 33%;
+}
+
+.col1 {
+  background-image: url("/images/photos-homeDesktop/banner_h1_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  height: 37rem;
+}
+
+.col2 {
+  background-image: url("/images/photos-homeDesktop/banner_h1_2.jpg");
+  background-position: center;
+  height: 37rem;
+}
+
+.col3 {
+  background-image: url("/images/photos-homeDesktop/banner_h1_3.jpg");
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  height: 37rem;
+}
+
+.img3 {
+  opacity: 0;
+}
+
+.wor .col1 .stock1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+  margin-right: 18rem;
+}
+
+.wor .col1 .stock1 p {
+  color: #999;
+  font-size: 1.3rem;
+  margin-left: 13rem;
+}
+
+.wor .col1 .stock1 h2 {
+  font-size: 5rem;
+}
+
+.wor .col1 .stock1 a {
+  color: #999;
+  font-size: 1.4rem;
+  margin-top: 6rem;
+  position: relative;
+  left: 13rem;
+}
+
+h2 span {
+  margin-left: 2.1rem;
+}
+
+.wor .col1:hover {
+  background-image: url("/images/photos-homeDesktop/banner_h1_2.jpg");
+  background-position: center;
+  color: white;
+}
+
+.wor .col1:hover a {
+  color: white;
+  margin-right: 7rem;
+  margin-bottom: 6rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.wor .col1:hover h2 {
+  margin-left: 18rem;
+  font-size: 4rem;
+}
+
+.wor .col1:hover p {
+  font-size: 1.3rem;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 3rem;
+  bottom: 0;
+}
+
+.wor .col2 .stock2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  margin-right: 18rem;
+}
+
+.wor .col2 .stock2 p {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 18rem;
+}
+
+.wor .col2 .stock2 h2 {
+  margin-left: 19rem;
+  font-size: 4rem;
+  color: white;
+}
+
+.wor .col2 .stock2 a {
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  position: relative;
+  left: 10rem;
+}
+
+.wor .col2:hover {
+  background-image: url("/images/photos-homeDesktop/banner_h1_1.jpg");
+  background-position: center;
+}
+
+.wor .col2:hover p {
+  color: #999;
+}
+
+.wor .col2:hover h2 {
+  font-size: 5rem;
+  color: black;
+  margin-right: 13rem;
+}
+
+.wor .col2:hover a {
+  color: #999;
+  margin-top: 6rem;
+  margin-left: 7rem;
+}
+
+/* start col3 texte */
+.col3 .stock3 {
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12rem;
+}
+
+.col3 .stock3 p {
+  margin-left: 10rem;
+  color: #999;
+  font-size: 1.3rem;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.col3 .stock3 p:hover {
+  transform: scale(2);
+}
+
+.col3 .stock3 h2 {
+  margin-left: 3rem;
+  font-size: 4rem;
+  margin-top: 3rem;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.col3 .stock3 h2:hover {
+  transform: rotate(360deg);
+}
+
+.col3 .stock3 a {
+  color: #999;
+  font-size: 1.2rem;
+  margin-left: 10rem;
+  margin-top: 4rem;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.col3 .stock3 a:hover {
+  transform: scale(2.2) translateX(-50px);
+  color: black;
+}
+
+.box-titre {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-top: 20rem;
+}
+
+.box-titre h1 {
+  margin-left: 30rem;
+}
+
+.box-titre p {
+  margin-left: 30.2rem;
+  color: #999;
+}
+
+.box-firstSec {
+  height: auto;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.box-firstSec .bagImg {
+  display: inline-block;
+  margin-left: 30rem;
+  height: 20rem;
+  width: 20rem;
+  background-image: url("images/photos-homeDesktop/bsl1.jpg");
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  bottom: 0rem;
+  top: 2rem;
+}
+
+.box-firstSec .txtBag {
+  height: 60rem;
+  margin-left: 4rem;
+}
+
+.box-firstSec .txtBag p {
+  position: absolute;
+  left: 3rem;
+  right: 0;
+  top: 18rem;
+}
+
+.box-firstSec .txtBag p .titleBag {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.box-firstSec .txtBag p .priceBag {
+  opacity: 0.5;
+  color: #999;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.box-firstSec .txtBag p .priceBag:hover {
+  font-size: 2.5rem;
+  color: #f68773;
+}
+
+.box-firstSec .txtBag p a {
+  color: black;
+}
+
+.box-firstSec .txtBag p a:hover {
+  color: #f68773;
+  text-decoration: none;
+}
+
+.img2sec1 {
+  display: inline-block;
+  height: 35rem;
+  width: 35rem;
+  background-image: url("images/photos-homeDesktop/bsl2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20rem;
+  position: relative;
+  top: o;
+  bottom: 6rem;
+}
+
+.img2sec1 p {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 3rem;
+  right: 5rem;
+}
+
+.img2sec1 p .titleBag {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.img2sec1 p .priceBag {
+  opacity: 0.5;
+  color: #999;
+}
+
+.img2sec1 p .priceBag:hover {
+  font-size: 2.5rem;
+  color: #f68773;
+}
+
+.img2sec1 p a {
+  color: black;
+}
+
+.img2sec1 p a:hover {
+  color: #f68773;
+  text-decoration: none;
+}
+
+.contain2sec {
+  width: 100%;
+  height: auto;
+}
+
+.contain2sec .img1sec2 {
+  background-image: url("images/photos-homeDesktop/bsl3.jpg");
+  width: 38rem;
+  height: 38rem;
+  display: inline-block;
+  background-size: contain;
+  background-position: center;
+  margin-left: 29rem;
+  position: relative;
+}
+
+.contain2sec .img1sec2 p {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  left: -7rem;
+}
+
+.contain2sec .img1sec2 p .titleBag {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contain2sec .img1sec2 p .priceBag {
+  opacity: 0.5;
+  color: #999;
+}
+
+.contain2sec .img1sec2 p .priceBag:hover {
+  font-size: 2.5rem;
+  color: #f68773;
+}
+
+.contain2sec .img1sec2 p a {
+  color: black;
+}
+
+.contain2sec .img1sec2 p a:hover {
+  color: #f68773;
+  text-decoration: none;
+}
+
+.contain2sec .img2sec2 {
+  width: 20rem;
+  height: 20rem;
+  display: inline-block;
+  background-image: url("images/photos-homeDesktop/bsl4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 13rem;
+  margin-left: 23rem;
+  position: relative;
+}
+
+.contain2sec .img2sec2 p {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 18rem;
+  left: 2rem;
+}
+
+.contain2sec .img2sec2 p .titleBag {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contain2sec .img2sec2 p .priceBag {
+  opacity: 0.5;
+  color: #999;
+}
+
+.contain2sec .img2sec2 p .priceBag:hover {
+  color: #f68773;
+  font-size: 2.5rem;
+}
+
+.contain2sec .img2sec2 p a {
+  color: black;
+}
+
+.contain2sec .img2sec2 p a:hover {
+  color: #f68773;
+  text-decoration: none;
+}
+
+.box-sec3title {
+  width: 100%;
+  height: 150px;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-sec3title .sec3title p {
+  color: #999;
+}
+
+.box-sec3title .choice a {
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 1.3rem;
+  opacity: 0.5;
+  text-decoration: none;
+  color: black;
+}
+
+.box-sec3title .choice a:hover {
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+.firstcontain3img {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstcontain3img .firstimg {
+  background-image: url("images/photos-homeDesktop/prd_05_1_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+
+.firstcontain3img .firstimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+
+.firstcontain3img .firstimg p .title {
+  font-size: large;
+}
+
+.firstcontain3img .firstimg p .icon {
+  margin-left: 4.5rem;
+}
+
+.firstcontain3img .firstimg p .clr {
+  color: #f68773;
+}
+
+.firstcontain3img .firstimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+
+.firstcontain3img .firstimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.firstcontain3img .secondimg {
+  background-image: url("images/photos-homeDesktop/sec4img2.png");
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+
+.firstcontain3img .secondimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+
+.firstcontain3img .secondimg p .title {
+  font-size: large;
+}
+
+.firstcontain3img .secondimg p .title .t-shirt {
+  margin-left: 5rem;
+}
+
+.firstcontain3img .secondimg p .icon {
+  margin-left: 4.5rem;
+}
+
+.firstcontain3img .secondimg p .clr {
+  color: #f68773;
+}
+
+.firstcontain3img .secondimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+
+.firstcontain3img .secondimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.thirdimg {
+  background-image: url("images/photos-homeDesktop/sec4img3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+
+.thirdimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+
+.thirdimg p .title {
+  font-size: large;
+}
+
+.thirdimg p .title .t-shirt {
+  margin-left: 5rem;
+}
+
+.thirdimg p .icon {
+  margin-left: 4.5rem;
+}
+
+.thirdimg p .clr {
+  color: #f68773;
+}
+
+.thirdimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+
+.thirdimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.secondecontain3img {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.secondecontain3img .firstimg {
+  background-image: url("images/photos-homeDesktop/sec5img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+
+.secondecontain3img .firstimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+
+.secondecontain3img .firstimg p .title {
+  font-size: large;
+  margin-left: 2rem;
+}
+
+.secondecontain3img .firstimg p .icon {
+  margin-left: 4.5rem;
+}
+
+.secondecontain3img .firstimg p .clr {
+  color: #f68773;
+}
+
+.secondecontain3img .firstimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+
+.secondecontain3img .firstimg p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.secondecontain3img .secondimg {
+  background-image: url("images/photos-homeDesktop/sec5img2.png");
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 25rem;
+}
+
+.secondecontain3img .secondimg p {
+  margin-top: 25rem;
+  margin-left: 2.5rem;
+}
+
+.secondecontain3img .secondimg p .title {
+  font-size: large;
+  margin-left: 1.5rem;
+}
+
+.secondecontain3img .secondimg p .title .pousse {
+  margin-left: 4rem;
+}
+
+.secondecontain3img .secondimg p .icon {
+  margin-left: 4.5rem;
+}
+
+.secondecontain3img .secondimg p .clr {
+  color: #f68773;
+}
+
+.secondecontain3img .secondimg p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+
+.secondecontain3img .secondimg p .price:hover {
+  color: #f68773;
+  font-size: 1.5rem;
+}
+
+.secondecontain3img .thirdimgsec2 {
+  background-image: url("images/photos-homeDesktop/sec5img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  height: 25rem;
+}
+
+.secondecontain3img .thirdimgsec2 p {
+  margin-top: 25rem;
+  margin-left: 4rem;
+}
+
+.secondecontain3img .thirdimgsec2 p .title {
+  font-size: large;
+}
+
+.secondecontain3img .thirdimgsec2 p .title .pousse {
+  margin-left: 5rem;
+}
+
+.secondecontain3img .thirdimgsec2 p .icon {
+  margin-left: 4.5rem;
+}
+
+.secondecontain3img .thirdimgsec2 p .clr {
+  color: #f68773;
+}
+
+.secondecontain3img .thirdimgsec2 p .price {
+  color: #999;
+  margin-left: 6rem;
+}
+
+.secondecontain3img .thirdimgsec2 p .price:hover {
+  font-size: 1.5rem;
+  color: #f68773;
+}
+
+.containLink {
+  width: 100%;
+  height: 5rem;
+  padding: 7rem;
+}
+
+.containLink .link {
+  text-align: center;
+  position: relative;
+}
+
+.containLink .link a {
+  color: black;
+  text-decoration: underline double;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.containLink .link a:hover {
+  font-weight: bold;
+  color: #f68773;
+  font-size: 2.3rem;
+}
+
+.containEvent {
+  width: 100%;
+  height: 50rem;
+  margin-top: 1rem;
+}
+
+.containEvent .imgEvent {
+  width: 100%;
+  height: 100%;
+  background-image: url("images/photos-homeDesktop/deals_image.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.containEvent .imgEvent .condiEvent {
+  height: 100%;
+  width: 55rem;
+  margin-left: 20rem;
+}
+
+.containEvent .imgEvent .condiEvent .entete {
+  display: inline-block;
+  margin-top: 7rem;
+  margin-left: 8rem;
+}
+
+.containEvent .imgEvent .condiEvent .entete .annonce {
+  color: #999;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.containEvent .imgEvent .condiEvent .entete .title {
+  font-size: 3.5rem;
+}
+
+.containEvent .imgEvent .condiEvent .entete .pricebarrer {
+  font-size: 1.4rem;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.containEvent .imgEvent .condiEvent .entete .price {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.containEvent .imgEvent .condiEvent .entete .price:hover {
+  color: #f68773;
+  font-size: 2rem;
+}
+
+.containEvent .imgEvent .condiEvent .entete .btnn {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border: 1px solid red;
+}
+
+.containEvent .imgEvent .condiEvent .entete .btnn:hover {
+  background-color: red;
+  color: white;
+}
+
+.containEvent .imgEvent .condiEvent .day-link {
+  width: 75%;
+  height: 50%;
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .contain4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  background-color: white;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .contain4 .box {
+  padding: 2rem;
+  margin-right: 2rem;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .contain4 .box p {
+  vertical-align: middle;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .contain4 .box .nbrs {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .contain4 .box .wrds {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .contain4 .box .wrds:hover {
+  color: #f68773;
+  font-size: 1.2rem;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .linkShow {
+  margin-top: 4.5rem;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .linkShow a {
+  color: black;
+  text-decoration: underline double;
+  font-size: 1.3rem;
+  margin-top: 5rem;
+}
+
+.containEvent .imgEvent .condiEvent .day-link .linkShow a:hover {
+  color: #f68773;
+  font-size: 1.8rem;
+}
+
+.containLatest {
+  width: 100%;
+  height: auto;
+  margin-top: 8rem;
+}
+
+.containLatest .titleLatest {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containLatest .titleLatest p {
+  color: #999;
+}
+
+.containLatest .titleLatest p:hover {
+  font-size: 1.4rem;
+  color: #f68773;
+}
+
+.containLatest .titleLatest a {
+  color: black;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+.containLatest .titleLatest a:hover {
+  color: #f68773;
+  text-decoration: underline double black;
+}
+
+.contain3img {
+  height: 35rem;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contain3img .firstImg {
+  width: 40rem;
+  height: 25rem;
+  background-image: url("images/photos-homeDesktop/blog1.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contain3img .firstImg .txt {
+  margin-top: 25rem;
+  margin-left: 5rem;
+}
+
+.contain3img .firstImg p {
+  color: #999;
+  font-size: 1rem;
+}
+
+.contain3img .firstImg span {
+  text-transform: uppercase;
+  color: #f68773;
+  font-size: 1.3rem;
+}
+
+.contain3img .firstImg a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.contain3img .firstImg a:hover {
+  color: #f68773;
+  text-decoration: underline double black;
+}
+
+.contain3img .twoImg {
+  width: 40rem;
+  height: 25rem;
+  background-image: url("images/photos-homeDesktop/blog2.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contain3img .twoImg .txt2 {
+  margin-top: 25rem;
+  margin-left: 5rem;
+}
+
+.contain3img .twoImg p {
+  color: #999;
+  font-size: 1rem;
+}
+
+.contain3img .twoImg span {
+  text-transform: uppercase;
+  color: #f68773;
+  font-size: 1.3rem;
+}
+
+.contain3img .twoImg a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.contain3img .twoImg a:hover {
+  color: #f68773;
+  text-decoration: underline double black;
+}
+
+.contain3img .thirdImg {
+  width: 40rem;
+  height: 25rem;
+  background-image: url("images/photos-homeDesktop/blog3.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contain3img .thirdImg .txt3 {
+  margin-top: 25rem;
+  margin-left: 5rem;
+}
+
+.contain3img .thirdImg .txt3 p {
+  color: #999;
+  font-size: 1rem;
+}
+
+.contain3img .thirdImg .txt3 span {
+  text-transform: uppercase;
+  color: #f68773;
+  font-size: 1.3rem;
+}
+
+.contain3img .thirdImg .txt3 a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.contain3img .thirdImg .txt3 a:hover {
+  color: #f68773;
+  text-decoration: underline double black;
+}
+
+.containTitleKeep {
+  width: 70%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20rem;
+  margin-top: 5rem;
+}
+
+.containTitleKeep .titleKeep h1 {
+  margin-top: 3rem;
+}
+
+.containTitleKeep .titleKeep p {
+  color: #999;
+}
+
+.containTitleKeep .email a {
+  display: inline-block;
+  margin-top: 3rem;
+  color: #999;
+  font-size: 1.5rem;
+}
+
+.containTitleKeep .email a:hover {
+  color: #f68773;
+  font-size: 2rem;
+}
+
+.containTitleKeep .subscribe {
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+.containTitleKeep .subscribe a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.containTitleKeep .subscribe a:hover {
+  font-size: 2rem;
+  color: #f68773;
+}
+
+.containImg {
+  width: 100%;
+  height: 23rem;
+  background-color: powderblue;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.containImg .img {
+  width: 20.5rem;
+  height: 23rem;
+  background-color: rebeccapurple;
+}
+
+.containImg .img1 {
+  background-image: url("images/photos-homeDesktop/blog6_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img1:hover {
+  opacity: 1;
+}
+
+.containImg .img2 {
+  background-image: url("images/photos-homeDesktop/blog4_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img2:hover {
+  opacity: 1;
+}
+
+.containImg .img3 {
+  background-image: url("images/photos-homeDesktop/bsl4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img3:hover {
+  opacity: 1;
+}
+
+.containImg .img4 {
+  background-image: url("images/photos-homeDesktop/blog5_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img4:hover {
+  opacity: 1;
+}
+
+.containImg .img5 {
+  background-image: url("images/photos-homeDesktop/prd_06_1_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img5:hover {
+  opacity: 1;
+}
+
+.containImg .img6 {
+  background-image: url("images/photos-homeDesktop/latest2_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img6:hover {
+  opacity: 1;
+}
+
+.containImg .img7 {
+  background-image: url("images/photos-homeDesktop/sec5img3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.containImg .img7:hover {
+  opacity: 1;
+}
+
+.boxMenu {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+}
+
+.boxMenu .contLignes {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.boxMenu .contLignes .lignes {
+  width: 60%;
+  height: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: #999;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.boxMenu .contLignes .lignes:nth-child(1) {
+  top: 0rem;
+}
+
+.boxMenu .contLignes .lignes:nth-child(2) {
+  top: 0.5rem;
+}
+
+.boxMenu .contLignes .lignes:nth-child(3) {
+  top: 1rem;
+}
+
+.btnnn.active .lignes:nth-child(1) {
+  transform: translateY(10px) rotate(135deg);
+}
+
+.btnnn.active .lignes:nth-child(2) {
+  opacity: 0;
+}
+
+.btnnn.active .lignes:nth-child(3) {
+  transform: translateY(0rem) rotate(-135deg);
+}
+
+.menuDefi {
+  position: fixed;
+  right: 0;
+  padding: 0 3rem;
+  background-color: black;
+  width: 20%;
+  height: 100%;
+  z-index: 50;
+  transition: transform 0.6s ease-in-out;
+  -webkit-transition: transform 0.6s ease-in-out;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+
+.menuDefi.isOpen {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+}
+
+.menuDefi ul {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menuDefi ul li {
+  margin: 2rem 0;
+  list-style-type: none;
+}
+
+.menuDefi ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100vh;
+  }
+  header .img-bg {
+    width: 225%;
+    height: 100%;
+    background-image: url("images/photos-homeDesktop/sl3-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .my-nav {
+    height: 15rem;
+    background-color: white;
+  }
+  .my-nav .supro {
+    color: black;
+    font-size: 10rem;
+  }
+  .secTwo .contain .containLeft {
+    width: 100vh;
+    margin-top: 100rem;
+    margin-left: 1rem;
+    position: absolute;
+    top: -5;
+    left: 35rem;
+  }
+  .secTwo .contain .containLeft li {
+    display: inline;
+    margin-left: 5rem;
+  }
+  .secTwo .contain .containLeft li a {
+    color: white;
+    font-size: 3rem;
+  }
+  .secTwo .contain .containMiddle {
+    position: relative;
+  }
+  .secTwo .contain .containMiddle h1 {
+    position: absolute;
+    left: 53rem;
+    top: 12rem;
+    font-size: 7rem;
+    display: inline;
+  }
+  .secTwo .contain .containMiddle a {
+    display: inline;
+    position: absolute;
+    top: 35rem;
+    left: 53rem;
+    font-size: 2.5rem;
+    color: white;
+  }
+  .secTwo .contain .containMiddle a .more {
+    margin-left: 2.5rem;
+  }
+  .secTwo .contain .containRight {
+    display: none;
+  }
+  .secThree {
+    width: 100%;
+    height: 100%;
+  }
+  .secThree .wor {
+    margin-top: 23.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 400vw;
+  }
+  .secThree .wor .col1 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col1 .stock1 p {
+    margin-right: 70rem;
+    font-size: 3rem;
+  }
+  .secThree .wor .col1 .stock1 h2 {
+    margin-bottom: 10rem;
+  }
+  .secThree .wor .col1 .stock1 a {
+    position: relative;
+    bottom: 10rem;
+    left: 25rem;
+    font-size: 2.5rem;
+  }
+  .secThree .wor .col2 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col2 .stock2 p {
+    margin-bottom: 20rem;
+    font-size: 3rem;
+    margin-left: 25rem;
+  }
+  .secThree .wor .col2 .stock2 h2 {
+    position: relative;
+    bottom: 15rem;
+    left: 2rem;
+    font-size: 5rem;
+  }
+  .secThree .wor .col2 .stock2 a {
+    bottom: 11rem;
+    left: 12rem;
+    font-size: 2.5rem;
+  }
+  .secThree .wor .col3 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col3 .stock3 p {
+    margin-bottom: 12rem;
+    position: relative;
+    left: 70rem;
+    font-size: 4rem;
+  }
+  .secThree .wor .col3 .stock3 h2 {
+    position: relative;
+    left: 45rem;
+    bottom: 11rem;
+    font-size: 6rem;
+  }
+  .secThree .wor .col3 .stock3 a {
+    position: relative;
+    left: 73.5rem;
+    font-size: 3rem;
+    bottom: 13rem;
+  }
+  .box-titre {
+    margin-top: 170rem;
+    width: 400vw;
+    height: 20rem;
+  }
+  .box-titre .titre-global {
+    position: relative;
+    right: 25rem;
+  }
+  .box-titre .titre-global h1 {
+    width: 100%;
+    font-size: 9rem;
+  }
+  .box-titre .titre-global p {
+    font-size: 3rem;
+  }
+  .box-firstSec {
+    height: 850vw;
+    width: 400vw;
+  }
+  .box-firstSec .bagImg {
+    height: 300vw;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 12%;
+  }
+  .box-firstSec .bagImg .txtBag {
+    position: relative;
+  }
+  .box-firstSec .bagImg .txtBag p {
+    top: 100rem;
+    left: 15rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .bagImg .txtBag span {
+    font-size: 6rem;
+  }
+  .box-firstSec .bagImg .txtBag br {
+    display: none;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag {
+    display: block;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag:hover {
+    font-size: 7rem;
+  }
+  .box-firstSec .img2sec1 {
+    margin-top: 50rem;
+    height: 300vw;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 6rem;
+  }
+  .box-firstSec .img2sec1 .titleBag {
+    position: absolute;
+    top: 100rem;
+    left: 23rem;
+    font-size: 6rem;
+  }
+  .box-firstSec .img2sec1 .titleBag br {
+    display: none;
+  }
+  .box-firstSec .img2sec1 .priceBag {
+    position: absolute;
+    top: 110rem;
+    left: 30rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .img2sec1 .priceBag:hover {
+    font-size: 7rem;
+  }
+  .box-firstSec .img2sec1 a {
+    position: absolute;
+    top: 120rem;
+    left: 30rem;
+    font-size: 3rem;
+  }
+  .contain2sec {
+    width: 400vw;
+    height: 900vw;
+  }
+  .contain2sec .img1sec2 {
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100rem;
+    position: relative;
+    right: 14rem;
+  }
+  .contain2sec .img1sec2 p .titleBag {
+    margin-top: 100rem;
+    margin-left: 20rem;
+    font-size: 6rem;
+  }
+  .contain2sec .img1sec2 p .titleBag br {
+    display: none;
+  }
+  .contain2sec .img1sec2 p .priceBag {
+    font-size: 6rem;
+    margin-left: 40rem;
+  }
+  .contain2sec .img1sec2 p .priceBag:hover {
+    font-size: 7rem;
+  }
+  .contain2sec .img1sec2 p a {
+    font-size: 4rem;
+    margin-left: 40rem;
+  }
+  .contain2sec .img2sec2 {
+    margin-top: 30rem;
+    width: 75%;
+    height: 400vw;
+    position: relative;
+    right: 9rem;
+  }
+  .contain2sec .img2sec2 p .titleBag {
+    margin-top: 100rem;
+    margin-left: 15rem;
+    font-size: 6rem;
+  }
+  .contain2sec .img2sec2 p br {
+    display: none;
+  }
+  .contain2sec .img2sec2 p .priceBag {
+    font-size: 6rem;
+    margin-left: 30rem;
+  }
+  .contain2sec .img2sec2 p .priceBag:hover {
+    font-size: 7rem;
+  }
+  .contain2sec .img2sec2 p a {
+    font-size: 4rem;
+    margin-left: 30rem;
+  }
+  .box-sec3title {
+    width: 400vw;
+    height: auto;
+    display: block;
+    font-size: 6rem;
+  }
+  .box-sec3title .sec3title h1 {
+    font-size: 8rem;
+  }
+  .box-sec3title .choice {
+    width: 60%;
+  }
+  .box-sec3title .choice a {
+    display: inline-block;
+    font-size: 5rem;
+  }
+  .box-sec3title .choice a:hover {
+    font-size: 6rem;
+  }
+  .firstcontain3img {
+    margin-top: 10rem;
+    height: 500vw;
+    width: 400vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firstcontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .secondimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .secondimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .secondimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .thirdimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .thirdimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .thirdimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img {
+    height: 500vw;
+    width: 400vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secondecontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .secondimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .secondimg p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .secondimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .thirdimgsec2 p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price:hover {
+    font-size: 5rem;
+  }
+  .containLink {
+    width: 400vw;
+  }
+  .containLink .link a {
+    font-size: 6rem;
+  }
+  .containEvent {
+    width: 400vw;
+    height: 400vw;
+  }
+  .containEvent .imgEvent {
+    width: 100%;
+    background-size: cover;
+  }
+  .containEvent .imgEvent .condiEvent {
+    width: 90%;
+    position: relative;
+    right: 20rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete {
+    margin-top: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .annonce {
+    font-size: 8rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .title {
+    font-size: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .pricebarrer {
+    font-size: 8rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price {
+    font-size: 8rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price:hover {
+    font-size: 9rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .btnn {
+    position: relative;
+    top: 7rem;
+    left: 0;
+    font-size: 6rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 {
+    margin-top: 20rem;
+    width: 350vw;
+    height: 25rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box {
+    height: 100%;
+    width: 100%;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .nbrs {
+    font-size: 7rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .wrds {
+    font-size: 6rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow {
+    margin-top: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow a {
+    font-size: 6rem;
+  }
+  .containLatest {
+    width: 400vw;
+    height: 10vw;
+  }
+  .containLatest .titleLatest {
+    display: flex;
+    flex-direction: column;
+  }
+  .containLatest .titleLatest .title {
+    font-size: 7rem;
+  }
+  .containLatest .titleLatest .title h1 {
+    font-size: 10rem;
+  }
+  .containLatest .titleLatest .linkright a {
+    font-size: 5rem;
+  }
+  .contain3img {
+    width: 400vw;
+    height: 2190vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .contain3img .firstImg {
+    width: 400vw;
+    height: 400vw;
+  }
+  .contain3img .firstImg .txt {
+    margin-top: 145rem;
+  }
+  .contain3img .firstImg .txt h4 {
+    font-size: 7rem;
+  }
+  .contain3img .firstImg .txt p {
+    font-size: 7rem;
+  }
+  .contain3img .firstImg .txt p span {
+    font-size: 7rem;
+  }
+  .contain3img .firstImg .txt a {
+    font-size: 6rem;
+  }
+  .contain3img .twoImg {
+    width: 400vw;
+    height: 400vw;
+  }
+  .contain3img .twoImg .txt2 {
+    margin-top: 160rem;
+  }
+  .contain3img .twoImg .txt2 h4 {
+    font-size: 8rem;
+  }
+  .contain3img .twoImg .txt2 p {
+    font-size: 7rem;
+  }
+  .contain3img .twoImg .txt2 p span {
+    font-size: 7rem;
+  }
+  .contain3img .twoImg .txt2 a {
+    font-size: 6rem;
+  }
+  .contain3img .thirdImg {
+    width: 400vw;
+    height: 400vw;
+  }
+  .contain3img .thirdImg .txt3 {
+    margin-top: 130rem;
+  }
+  .contain3img .thirdImg .txt3 h4 {
+    font-size: 8rem;
+  }
+  .contain3img .thirdImg .txt3 p {
+    font-size: 7rem;
+  }
+  .contain3img .thirdImg .txt3 p span {
+    font-size: 7rem;
+  }
+  .contain3img .thirdImg .txt3 a {
+    font-size: 6rem;
+  }
+  .containTitleKeep {
+    margin-left: 0;
+    width: 400vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .containTitleKeep .titleKeep h1 {
+    font-size: 12rem;
+  }
+  .containTitleKeep .titleKeep p {
+    font-size: 6rem;
+  }
+  .containTitleKeep .email {
+    position: relative;
+    right: 40rem;
+    top: 5rem;
+  }
+  .containTitleKeep .email a {
+    font-size: 5rem;
+  }
+  .containTitleKeep .subscribe {
+    position: relative;
+    left: 20rem;
+    bottom: 5rem;
+  }
+  .containTitleKeep .subscribe a {
+    font-size: 5rem;
+  }
+  .containImg {
+    width: 400vw;
+    height: 100vw;
+  }
+  .containImg .img {
+    width: 333%;
+    height: 100vw;
+  }
+  .containImg .img4 {
+    display: none;
+  }
+  .containImg .img5 {
+    display: none;
+  }
+  .containImg .img6 {
+    display: none;
+  }
+  .containImg .img7 {
+    display: none;
+  }
+  .footer {
+    width: 400vw;
+  }
+  .footer .row {
+    margin-left: 15rem;
+    margin-right: -15rem;
+  }
+  .footer .row .col-4 p {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  body {
+    width: 400vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+  .my-nav {
+    height: 15rem;
+    background-color: white;
+  }
+  .my-nav .supro {
+    color: black;
+    font-size: 10rem;
+  }
+  .secTwo .contain .containLeft {
+    width: 100vh;
+    margin-top: 55rem;
+    position: absolute;
+    top: 25rem;
+    left: 55rem;
+  }
+  .secTwo .contain .containLeft li {
+    display: inline;
+    margin-left: 5rem;
+  }
+  .secTwo .contain .containLeft li a {
+    color: white;
+    font-size: 6rem;
+  }
+  .secTwo .contain .containLeft li a:hover {
+    color: #f68773;
+  }
+  .secTwo .contain .containMiddle {
+    position: relative;
+  }
+  .secTwo .contain .containMiddle h1 {
+    position: absolute;
+    left: 70rem;
+  }
+  .secTwo .contain .containMiddle a {
+    display: inline;
+    position: absolute;
+    top: 30rem;
+    left: 65rem;
+    font-size: 6rem;
+    color: white;
+  }
+  .secTwo .contain .containMiddle a .more {
+    margin-left: 2.5rem;
+  }
+  .secTwo .contain .containRight {
+    display: none;
+  }
+  .secThree {
+    width: 400vw;
+    height: 100vw;
+    position: relative;
+    top: 10rem;
+  }
+  .secThree .wor {
+    margin-top: 23.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 400vw;
+  }
+  .secThree .wor .col1 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col1 .stock1 p {
+    margin-right: 70rem;
+    font-size: 3rem;
+  }
+  .secThree .wor .col1 .stock1 h2 {
+    margin-bottom: 10rem;
+  }
+  .secThree .wor .col1 .stock1 a {
+    position: relative;
+    bottom: 10rem;
+    left: 25rem;
+    font-size: 2.5rem;
+  }
+  .secThree .wor .col2 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col2 .stock2 p {
+    margin-bottom: 20rem;
+    font-size: 3rem;
+    margin-left: 25rem;
+  }
+  .secThree .wor .col2 .stock2 h2 {
+    position: relative;
+    bottom: 15rem;
+    left: 2rem;
+    font-size: 5rem;
+  }
+  .secThree .wor .col2 .stock2 a {
+    bottom: 11rem;
+    left: 12rem;
+    font-size: 2.5rem;
+  }
+  .secThree .wor .col3 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .secThree .wor .col3 .stock3 p {
+    margin-bottom: 12rem;
+    position: relative;
+    left: 70rem;
+    font-size: 4rem;
+  }
+  .secThree .wor .col3 .stock3 h2 {
+    position: relative;
+    left: 45rem;
+    bottom: 11rem;
+    font-size: 6rem;
+  }
+  .secThree .wor .col3 .stock3 a {
+    position: relative;
+    left: 73.5rem;
+    font-size: 3rem;
+    bottom: 13rem;
+  }
+  .box-titre {
+    margin-top: 1700px;
+    width: 400vw;
+  }
+  .box-titre .titre-global {
+    position: relative;
+    right: 25rem;
+  }
+  .box-titre .titre-global h1 {
+    width: 100%;
+    font-size: 13rem;
+  }
+  .box-titre .titre-global p {
+    font-size: 6rem;
+  }
+  header .img-bg {
+    display: block;
+    width: 400vw;
+    height: 1000px;
+  }
+  header .img-bg img {
+    width: 400vw;
+    height: 600px;
+  }
+  .box-firstSec {
+    height: 850vw;
+    width: 400vw;
+  }
+  .box-firstSec .bagImg {
+    height: 100vw;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 12%;
+  }
+  .box-firstSec .bagImg .txtBag {
+    position: relative;
+  }
+  .box-firstSec .bagImg .txtBag p {
+    top: 10rem;
+    left: 15rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .bagImg .txtBag span {
+    font-size: 6rem;
+  }
+  .box-firstSec .bagImg .txtBag br {
+    display: none;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag {
+    display: block;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag:hover {
+    font-size: 7rem;
+  }
+  .box-firstSec .img2sec1 {
+    margin-top: 50rem;
+    height: 300vw;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 6rem;
+  }
+  .box-firstSec .img2sec1 .titleBag {
+    position: absolute;
+    top: 130rem;
+    left: 23rem;
+    font-size: 6rem;
+  }
+  .box-firstSec .img2sec1 .titleBag br {
+    display: none;
+  }
+  .box-firstSec .img2sec1 .priceBag {
+    position: absolute;
+    top: 140rem;
+    left: 30rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .img2sec1 .priceBag:hover {
+    font-size: 7rem;
+  }
+  .box-firstSec .img2sec1 a {
+    position: absolute;
+    top: 150rem;
+    left: 30rem;
+    font-size: 3rem;
+  }
+  .contain2sec {
+    width: 400vw;
+    height: 790vw;
+  }
+  .contain2sec .img1sec2 {
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100rem;
+    position: relative;
+    right: 14rem;
+  }
+  .contain2sec .img1sec2 p .titleBag {
+    margin-top: 100rem;
+    margin-left: 20rem;
+    font-size: 6rem;
+  }
+  .contain2sec .img1sec2 p .titleBag br {
+    display: none;
+  }
+  .contain2sec .img1sec2 p .priceBag {
+    font-size: 6rem;
+    margin-left: 40rem;
+  }
+  .contain2sec .img1sec2 p .priceBag:hover {
+    font-size: 7rem;
+  }
+  .contain2sec .img1sec2 p a {
+    font-size: 4rem;
+    margin-left: 40rem;
+  }
+  .contain2sec .img2sec2 {
+    margin-top: 30rem;
+    width: 75%;
+    height: 400vw;
+    position: relative;
+    right: 9rem;
+  }
+  .contain2sec .img2sec2 p .titleBag {
+    margin-top: 130rem;
+    margin-left: 20rem;
+    font-size: 6rem;
+  }
+  .contain2sec .img2sec2 p br {
+    display: none;
+  }
+  .contain2sec .img2sec2 p .priceBag {
+    font-size: 6rem;
+    margin-left: 40rem;
+  }
+  .contain2sec .img2sec2 p .priceBag:hover {
+    font-size: 7rem;
+  }
+  .contain2sec .img2sec2 p a {
+    font-size: 4rem;
+    margin-left: 40rem;
+  }
+  .box-sec3title {
+    width: 400vw;
+    height: auto;
+    display: block;
+    font-size: 6rem;
+  }
+  .box-sec3title .sec3title h1 {
+    font-size: 8rem;
+  }
+  .box-sec3title .choice {
+    width: 60%;
+  }
+  .box-sec3title .choice a {
+    display: inline-block;
+    font-size: 5rem;
+  }
+  .box-sec3title .choice a:hover {
+    font-size: 6rem;
+  }
+  .firstcontain3img {
+    margin-top: 10rem;
+    height: 230vw;
+    width: 400vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firstcontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .secondimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .secondimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .secondimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .thirdimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .thirdimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .thirdimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img {
+    height: 230vw;
+    width: 400vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secondecontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+  }
+  .secondecontain3img .secondimg p {
+    position: absolute;
+    right: 20rem;
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .secondimg p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .secondimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .thirdimgsec2 p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price:hover {
+    font-size: 5rem;
+  }
+  .containLink {
+    width: 400vw;
+    height: auto;
+  }
+  .containLink .link a {
+    font-size: 6rem;
+  }
+  .containEvent {
+    width: 400vw;
+    height: 400vw;
+  }
+  .containEvent .imgEvent {
+    width: 100%;
+    background-size: cover;
+  }
+  .containEvent .imgEvent .condiEvent {
+    width: 90%;
+    position: relative;
+    right: 20rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete {
+    margin-top: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .annonce {
+    font-size: 8rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .title {
+    font-size: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .pricebarrer {
+    font-size: 8rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price {
+    font-size: 8rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price:hover {
+    font-size: 9rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .btnn {
+    position: relative;
+    top: 7rem;
+    left: 0;
+    font-size: 6rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 {
+    margin-top: 20rem;
+    width: 350vw;
+    height: 25rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box {
+    height: 100%;
+    width: 100%;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .nbrs {
+    font-size: 7rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .wrds {
+    font-size: 6rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow {
+    margin-top: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow a {
+    font-size: 6rem;
+  }
+  .containLatest {
+    width: 400vw;
+    height: auto;
+  }
+  .containLatest .titleLatest {
+    display: flex;
+    flex-direction: column;
+  }
+  .containLatest .titleLatest .title {
+    font-size: 7rem;
+  }
+  .containLatest .titleLatest .title p:hover {
+    font-size: 8rem;
+  }
+  .containLatest .titleLatest .title h1 {
+    font-size: 10rem;
+  }
+  .containLatest .titleLatest .linkright a {
+    font-size: 5rem;
+  }
+  .contain3img {
+    width: 400vw;
+    height: 1800vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .contain3img .firstImg {
+    width: 400vw;
+    height: 400vw;
+  }
+  .contain3img .firstImg .txt {
+    margin-top: 160rem;
+  }
+  .contain3img .firstImg .txt h4 {
+    font-size: 7rem;
+  }
+  .contain3img .firstImg .txt p {
+    font-size: 7rem;
+  }
+  .contain3img .firstImg .txt p span {
+    font-size: 7rem;
+  }
+  .contain3img .firstImg .txt a {
+    font-size: 6rem;
+  }
+  .contain3img .twoImg {
+    width: 400vw;
+    height: 400vw;
+  }
+  .contain3img .twoImg .txt2 {
+    margin-top: 160rem;
+  }
+  .contain3img .twoImg .txt2 h4 {
+    font-size: 8rem;
+  }
+  .contain3img .twoImg .txt2 p {
+    font-size: 7rem;
+  }
+  .contain3img .twoImg .txt2 p span {
+    font-size: 7rem;
+  }
+  .contain3img .twoImg .txt2 a {
+    font-size: 6rem;
+  }
+  .contain3img .thirdImg {
+    width: 400vw;
+    height: 400vw;
+  }
+  .contain3img .thirdImg .txt3 {
+    margin-top: 160rem;
+  }
+  .contain3img .thirdImg .txt3 h4 {
+    font-size: 8rem;
+  }
+  .contain3img .thirdImg .txt3 p {
+    font-size: 7rem;
+  }
+  .contain3img .thirdImg .txt3 p span {
+    font-size: 7rem;
+  }
+  .contain3img .thirdImg .txt3 a {
+    font-size: 6rem;
+  }
+  .containTitleKeep {
+    margin-left: 0;
+    width: 400vw;
+    height: auto;
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .containTitleKeep .titleKeep h1 {
+    font-size: 12rem;
+  }
+  .containTitleKeep .titleKeep p {
+    font-size: 6rem;
+  }
+  .containTitleKeep .email {
+    position: relative;
+    right: 40rem;
+    top: 5rem;
+  }
+  .containTitleKeep .email a {
+    font-size: 5rem;
+  }
+  .containTitleKeep .email a:hover {
+    font-size: 6rem;
+  }
+  .containTitleKeep .subscribe {
+    position: relative;
+    left: 20rem;
+    bottom: 5rem;
+  }
+  .containTitleKeep .subscribe a {
+    font-size: 5rem;
+  }
+  .containTitleKeep .subscribe a:hover {
+    font-size: 6rem;
+  }
+  .containImg {
+    width: 400vw;
+    height: 100vw;
+  }
+  .containImg .img {
+    width: 333%;
+    height: 100vw;
+  }
+  .containImg .img4 {
+    display: none;
+  }
+  .containImg .img5 {
+    display: none;
+  }
+  .containImg .img6 {
+    display: none;
+  }
+  .containImg .img7 {
+    display: none;
+  }
+  .footer {
+    width: 400vw;
+  }
+  .footer .row {
+    margin-left: 15rem;
+    margin-right: -15rem;
+  }
+  .footer .row .col-4 p {
+    font-size: 6rem;
+  }
+  .footer {
+    width: 400vw;
+  }
+  .footer .row {
+    margin-left: 15rem;
+    margin-right: -15rem;
+  }
+  .footer .row .col-4 p {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  body {
+    width: 110vh;
+    height: 100%;
+  }
+  header .img-bg {
+    width: 150%;
+  }
+  .secTwo .contain .containLeft li a {
+    font-size: 2rem;
+  }
+  .secTwo .contain .containMiddle {
+    margin-left: 20rem;
+  }
+  .secTwo .contain .containMiddle a {
+    font-size: 2rem;
+  }
+  .secTwo .contain .containRight {
+    display: none;
+  }
+  .secThree {
+    width: 150%;
+    height: auto;
+    background-color: #999;
+  }
+  .secThree .wor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .secThree .wor .col1 {
+    width: 130%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .secThree .wor .col1 .stock1 {
+    margin-bottom: 10rem;
+  }
+  .secThree .wor .col2 {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .secThree .wor .col2 .stock2 {
+    margin-bottom: 10rem;
+  }
+  .secThree .wor .col3 {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .secThree .wor .col3 .stock3 {
+    margin-left: 45rem;
+  }
+  .box-titre {
+    margin-top: 100rem;
+    width: 150%;
+  }
+  .box-titre .titre-global {
+    position: relative;
+    right: 28rem;
+  }
+  .box-titre .titre-global h1 {
+    font-size: 3rem;
+  }
+  .box-titre .titre-global p {
+    font-size: 2rem;
+  }
+  .box-firstSec {
+    width: 150%;
+    height: auto;
+  }
+  .box-firstSec .bagImg {
+    position: relative;
+    right: 25rem;
+    top: 10rem;
+    width: 35rem;
+    height: 35rem;
+  }
+  .box-firstSec .bagImg .txtBag {
+    position: relative;
+    top: 20rem;
+    right: 5rem;
+  }
+  .box-firstSec .bagImg .txtBag p {
+    font-size: 2rem;
+  }
+  .box-firstSec .bagImg .txtBag p br {
+    display: none;
+  }
+  .box-firstSec .bagImg .txtBag span {
+    font-size: 3rem;
+  }
+  .box-firstSec .bagImg .txtBag .priceBag {
+    font-size: 2rem;
+    display: block;
+  }
+  .box-firstSec .img2sec1 {
+    margin-left: 25rem;
+    margin-top: 40rem;
+    width: 70rem;
+    height: 70rem;
+  }
+  .box-firstSec .img2sec1 .titleBag {
+    position: relative;
+    right: 15rem;
+    font-size: 5rem;
+  }
+  .box-firstSec .img2sec1 .priceBag {
+    position: relative;
+    right: 15rem;
+    font-size: 2rem;
+  }
+  .box-firstSec .img2sec1 a {
+    position: relative;
+    right: 15rem;
+    font-size: 2rem;
+  }
+  .contain2sec {
+    width: 150%;
+    height: 150rem;
+  }
+  .contain2sec .img1sec2 {
+    position: relative;
+    right: 4rem;
+    width: 70rem;
+    height: 70rem;
+  }
+  .contain2sec .img1sec2 p {
+    background-color: yellowgreen;
+    position: relative;
+    display: inline;
+  }
+  .contain2sec .img1sec2 p .titleBag {
+    position: absolute;
+    right: -45px;
+    font-size: 4rem;
+  }
+  .contain2sec .img1sec2 p .priceBag {
+    position: absolute;
+    top: 20rem;
+    font-size: 2rem;
+    right: 7rem;
+  }
+  .contain2sec .img1sec2 p a {
+    position: absolute;
+    top: 28rem;
+    font-size: 2rem;
+    right: 7rem;
+  }
+  .contain2sec .img2sec2 {
+    width: 35rem;
+    height: 35rem;
+    margin-top: 15rem;
+    position: relative;
+    right: 17rem;
+  }
+  .contain2sec .img2sec2 p {
+    margin-top: 18rem;
+  }
+  .contain2sec .img2sec2 p .titleBag {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .contain2sec .img2sec2 p .titleBag br {
+    display: none;
+  }
+  .contain2sec .img2sec2 p .priceBag {
+    font-size: 2rem;
+  }
+  .contain2sec .img2sec2 p .priceBag:hover {
+    font-size: 3rem;
+  }
+  .contain2sec .img2sec2 p a {
+    font-size: 2rem;
+  }
+  .box-sec3title {
+    width: 150%;
+    height: auto;
+    display: block;
+    font-size: 2rem;
+  }
+  .box-sec3title .sec3title h1 {
+    font-size: 4rem;
+  }
+  .box-sec3title .choice {
+    width: 60%;
+  }
+  .box-sec3title .choice a {
+    display: inline-block;
+    font-size: 2rem;
+  }
+  .box-sec3title .choice a:hover {
+    font-size: 3rem;
+  }
+  .firstcontain3img {
+    margin-top: 10rem;
+    height: 230vw;
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firstcontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .firstcontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .secondimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .secondimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .secondimg p .title .t-shirt {
+    margin-left: 13rem;
+  }
+  .firstcontain3img .secondimg p .icon {
+    margin-left: 8rem;
+  }
+  .firstcontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 7rem;
+  }
+  .firstcontain3img .secondimg p .price:hover {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .firstcontain3img .thirdimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .firstcontain3img .thirdimg p .title {
+    font-size: 5rem;
+  }
+  .firstcontain3img .thirdimg p .title .t-shirt {
+    margin-left: 13rem;
+  }
+  .firstcontain3img .thirdimg p .icon {
+    margin-left: 10rem;
+  }
+  .firstcontain3img .thirdimg p .price {
+    position: relative;
+    top: 0;
+    left: 8rem;
+  }
+  .firstcontain3img .thirdimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img {
+    height: 230vw;
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secondecontain3img .firstimg {
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .firstimg p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .firstimg p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .firstimg p .price {
+    position: relative;
+    top: 0;
+    left: 4rem;
+  }
+  .secondecontain3img .firstimg p .price:hover {
+    font-size: 5rem;
+  }
+  .secondecontain3img .secondimg {
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+  }
+  .secondecontain3img .secondimg p {
+    position: absolute;
+    left: 7rem;
+    margin-top: 50rem;
+    font-size: 3rem;
+  }
+  .secondecontain3img .secondimg p .title {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  .secondecontain3img .secondimg p .title span {
+    position: relative;
+    left: 1.5rem;
+  }
+  .secondecontain3img .secondimg p .price {
+    position: relative;
+    top: 0;
+    left: 3rem;
+  }
+  .secondecontain3img .secondimg p .price:hover {
+    font-size: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 {
+    margin-top: 5rem;
+    width: 50rem;
+    height: 50rem;
+  }
+  .secondecontain3img .thirdimgsec2 p {
+    margin-top: 50rem;
+    font-size: 4rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .title {
+    font-size: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .title .pousse {
+    margin-left: 12rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .icon {
+    margin-left: 6rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price {
+    position: relative;
+    top: 0;
+    left: 5rem;
+  }
+  .secondecontain3img .thirdimgsec2 p .price:hover {
+    font-size: 5rem;
+  }
+  .containLink {
+    width: 150%;
+    height: auto;
+  }
+  .containLink .link a {
+    font-size: 3rem;
+  }
+  .containEvent {
+    width: 150%;
+    height: auto;
+  }
+  .containEvent .imgEvent {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .containEvent .imgEvent .condiEvent {
+    width: 90%;
+    position: relative;
+    right: 20rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete {
+    margin-top: 10rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .annonce {
+    font-size: 2rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .title {
+    font-size: 4rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .pricebarrer {
+    font-size: 2rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price {
+    font-size: 3rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .price:hover {
+    font-size: 4rem;
+  }
+  .containEvent .imgEvent .condiEvent .entete .btnn {
+    position: relative;
+    top: 7rem;
+    left: 0;
+    font-size: 3rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 {
+    margin-top: 12rem;
+    width: 120%;
+    height: 13rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box {
+    height: 75%;
+    width: 75%;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .nbrs {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .contain4 .box .wrds {
+    font-size: 2rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow {
+    margin-top: 4.5rem;
+  }
+  .containEvent .imgEvent .condiEvent .day-link .linkShow a {
+    font-size: 2.5rem;
+  }
+  .containLatest {
+    width: 150%;
+    height: auto;
+  }
+  .containLatest .titleLatest {
+    display: flex;
+    flex-direction: row;
+  }
+  .containLatest .titleLatest .title {
+    font-size: 3rem;
+  }
+  .containLatest .titleLatest .title p {
+    font-size: 2rem;
+  }
+  .containLatest .titleLatest .title p:hover {
+    font-size: 3rem;
+  }
+  .containLatest .titleLatest .title h1 {
+    font-size: 4rem;
+  }
+  .containLatest .titleLatest .linkright a {
+    font-size: 2rem;
+  }
+  .contain3img {
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200vw;
+  }
+  .contain3img .firstImg {
+    width: 100vw;
+    height: 100vw;
+  }
+  .contain3img .firstImg .txt {
+    margin-top: 70rem;
+  }
+  .contain3img .firstImg .txt h4 {
+    font-size: 4rem;
+  }
+  .contain3img .firstImg .txt p {
+    font-size: 2rem;
+  }
+  .contain3img .firstImg .txt p span {
+    font-size: 3rem;
+  }
+  .contain3img .firstImg .txt a {
+    font-size: 2rem;
+  }
+  .contain3img .twoImg {
+    width: 60vw;
+    height: 45vw;
+  }
+  .contain3img .twoImg .txt2 {
+    margin-top: 35rem;
+  }
+  .contain3img .twoImg .txt2 h4 {
+    font-size: 2rem;
+  }
+  .contain3img .twoImg .txt2 p {
+    font-size: 2rem;
+  }
+  .contain3img .twoImg .txt2 p span {
+    font-size: 3rem;
+  }
+  .contain3img .twoImg .txt2 a {
+    font-size: 1.5rem;
+  }
+  .contain3img .thirdImg {
+    width: 60vw;
+    height: 45vw;
+  }
+  .contain3img .thirdImg .txt3 {
+    margin-top: 35rem;
+  }
+  .contain3img .thirdImg .txt3 h4 {
+    font-size: 2rem;
+  }
+  .contain3img .thirdImg .txt3 p {
+    font-size: 2rem;
+  }
+  .contain3img .thirdImg .txt3 p span {
+    font-size: 3rem;
+  }
+  .contain3img .thirdImg .txt3 a {
+    font-size: 1.5rem;
+  }
+  .containTitleKeep {
+    margin-left: 0;
+    width: 150%;
+    height: 10rem;
+    margin-top: 30rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .containTitleKeep .titleKeep h1 {
+    font-size: 4rem;
+  }
+  .containTitleKeep .titleKeep p {
+    font-size: 3rem;
+  }
+  .containTitleKeep .email a {
+    font-size: 2rem;
+  }
+  .containTitleKeep .email a:hover {
+    font-size: 3rem;
+  }
+  .containTitleKeep .subscribe a {
+    font-size: 2rem;
+  }
+  .containTitleKeep .subscribe a:hover {
+    font-size: 3rem;
+  }
+  .containImg {
+    width: 150%;
+    height: 45vw;
+  }
+  .containImg .img {
+    width: 20%;
+    height: 45vw;
+  }
+  .containImg .img6 {
+    display: none;
+  }
+  .containImg .img7 {
+    display: none;
+  }
+  .footer {
+    width: 150%;
+  }
+  .footer .row {
+    margin-left: 9rem;
+  }
+  .footer .row .col-4 p {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    width: 150%;
+  }
+  header .img-bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  header .img-bg img {
+    width: 100%;
+  }
+  .containImg {
+    width: 100%;
+    height: 25vw;
+  }
+  .containImg .img {
+    width: 14.28%;
+    height: 25vw;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1052px) {
+  body {
+    width: 150%;
+  }
+}
+
+@media screen and (min-width: 1053px) and (max-width: 1234px) {
+  body {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  header .img-bg {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .secThree {
+    width: 100%;
+  }
+  .secThree .col3 .stock3 p {
+    font-size: 1rem;
+  }
+  .secThree .col3 .stock3 h2 {
+    font-size: 2rem;
+  }
+  .secThree .col3 .stock3 a {
+    font-size: 1rem;
+  }
+}
+
+.footer_title {
+  font-weight: 600;
+}
+
+.footer_items {
+  color: #999;
+}
+
+.grayline {
+  color: #999;
+}
+
+.credit {
+  color: #999;
+  text-decoration: none;
+}
+
+.credit span {
+  font-weight: 500;
+  transition: all 0.5s;
+  border-bottom: 1px solid;
+  font-size: 18px;
+}
+
+.credit span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.credit span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.credit span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.credit span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.credit span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+.credit span:nth-child(7) {
+  transition-delay: 0.6s;
+}
+
+.credit span:nth-child(8) {
+  transition-delay: 0.7s;
+}
+
+.credit span:nth-child(9) {
+  transition-delay: 0.8s;
+}
+
+.credit span:nth-child(10) {
+  transition-delay: 0.9s;
+}
+
+.credit span:nth-child(11) {
+  transition-delay: 1s;
+}
+
+.credit span:nth-child(12) {
+  transition-delay: 1.1s;
+}
+
+.credit span:nth-child(13) {
+  transition-delay: 1.2s;
+}
+
+.credit span:nth-child(14) {
+  transition-delay: 1.3s;
+}
+
+.credit span:nth-child(15) {
+  transition-delay: 1.4s;
+}
+
+.credit:hover span {
+  font-weight: 700;
+  font-size: 23px;
+  color: black;
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  header .img-bg img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .secTwo .contain .containLeft ul li {
+    position: relative;
+  }
+  .secTwo .contain .containLeft ul li a {
+    margin-right: 20px;
+    font-size: 4rem;
+    color: #f68773;
+    position: absolute;
+    right: 4px;
+  }
+  .secTwo .contain .containMiddle {
+    position: relative;
+  }
+  .secTwo .contain .containMiddle h1 {
+    position: absolute;
+    left: 595px;
+    top: 34px;
+    color: #f68773;
+  }
+  .secTwo .contain .containMiddle a {
+    position: absolute;
+    left: 600px;
+    top: 350px;
+    font-size: 4rem;
+  }
+}

@@ -2176,18 +2176,21 @@ h2 span {
   header .img-bg {
     display: block;
     width: 400vw;
-    height: 1000px;
+    height: 800px;
   }
   header .img-bg img {
     width: 400vw;
-    height: 600px;
+    height: 700px;
+  }
+  .img-bg {
+    background-color: #dadada;
   }
   .box-firstSec {
-    height: 850vw;
+    height: 150vw;
     width: 400vw;
   }
   .box-firstSec .bagImg {
-    height: 100vw;
+    height: 200vw;
     width: 75%;
     background-repeat: no-repeat;
     background-position: center;

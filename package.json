@@ -1,0 +1,23 @@
+{
+  "name": "testschema",
+  "version": "1.0.0",
+  "description": "https://tselawi.github.io/test-schema-tool/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tselawi/test-schema-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tselawi/test-schema-tool/issues"
+  },
+  "homepage": "https://github.com/Tselawi/test-schema-tool#readme",
+  "dependencies": {
+    "country-emoji": "^1.5.6"
+  }
+}

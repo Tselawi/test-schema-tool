@@ -1,3 +1,4 @@
+import { flag, code, name, countries } from "/country-emoji";
 const allBtn = document.querySelectorAll(".contLignes");
 
 allBtn.forEach((btn) => {
@@ -11,3 +12,9 @@ $(document).ready(function () {
     $(".menuDefi").toggleClass("isOpen");
   });
 });
+
+console.log(flag("CL"));
+console.log(code("UAE"));
+
+console.log(name("AE"));
+console.log(Object.keys(countries).join(", "));
